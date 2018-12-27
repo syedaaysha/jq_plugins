@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>JQ_Plugin</title>
+	
+	<!-- Font Start -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+	<!-- Font end -->
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header>
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light">
+		 <!--  <a class="navbar-brand" href="#">Navbar</a> -->
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse custom_menu" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="index.html">Animsition <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="parallax.html">Parallax</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="tilted.html">Tilt</a>
+		      </li>
+		       <li class="nav-item">
+		        <a class="nav-link" href="counterup.html">CounterUp</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="owl.html">OwlCarousel</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="wow.html">wowJs</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
+</header>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="title">
+				    <h1>Owl Carousel</h1>
+				    <hr>
+			    </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="owl-carousel owl-theme">
+					    <div class="item bg-info"><h4>1</h4></div>
+					    <div class="item bg-info"><h4>2</h4></div>
+					    <div class="item bg-info"><h4>3</h4></div>
+					    <div class="item bg-info"><h4>4</h4></div>
+					    <div class="item bg-info"><h4>5</h4></div>
+					    <div class="item bg-info"><h4>6</h4></div>
+					    <div class="item bg-info"><h4>7</h4></div>
+					    <div class="item bg-info"><h4>8</h4></div>
+					    <div class="item bg-info"><h4>9</h4></div>
+					    <div class="item bg-info"><h4>10</h4></div>
+					    <div class="item bg-info"><h4>11</h4></div>
+					    <div class="item bg-info"><h4>12</h4></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<!--<script src="js/jquery-3.3.1.min.js"></script> -->
+	<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script> 
+
+
+<!-- <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/script.js"></script>
+	<script type="text/javascript">
+		$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+});
+	</script>
+</body>
+</html>

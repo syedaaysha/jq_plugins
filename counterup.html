@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>JQ_Plugin</title>
+	
+	<!-- Font Start -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+	<!-- Font end -->
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header>
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light">
+		 <!--  <a class="navbar-brand" href="#">Navbar</a> -->
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse custom_menu" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="index.html">Animsition <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="parallax.html">Parallax</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="tilted.html">Tilt</a>
+		      </li>
+		       <li class="nav-item">
+		        <a class="nav-link" href="counterup.html">CounterUp</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="owl.html">OwlCarousel</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="wow.html">wowJs</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
+</header>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="title">
+				    <h1>Counter Up</h1>
+				    <hr>
+			    </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 text-center bg-success custom_count">
+					<span class="counter">1,234,567.00</span>
+				</div>
+				<div class="col-md-4 text-center bg-warning custom_count">
+					<span>$</span><span class="counter">1.99</span>
+				</div>
+				<div class="col-md-4 text-center bg-info custom_count">
+					<span class="counter">12345</span>
+				</div>
+			</div>
+		</div>
+
+	<!--<script src="js/jquery-3.3.1.min.js"></script> -->
+	<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script> 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		 jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+
+	</script>
+
+</body>
+</html>
